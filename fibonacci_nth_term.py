@@ -7,10 +7,10 @@ else:
     a = 1
     b = 1
     fibo_sum = 0
-# Calculate the Fibonacci terms from 3rd to nth
+    # Calculate the Fibonacci terms from 3rd to nth
     for i in range(3,n+1):
         fibo_sum = a + b 
-# Move to the next two terms 
+        # Move to the next two terms 
         a = b 
         b = fibo_sum
     print(" Fibonacci of",n,"th tern is :",fibo_sum)
