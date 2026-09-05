@@ -2,4 +2,5 @@
 
 s = input("Enter string: ")
 
-print("".join(sorted(s)))
+sorted_string = "".join(sorted(s))
+print(sorted_string)
