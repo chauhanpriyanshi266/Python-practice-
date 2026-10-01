@@ -8,7 +8,6 @@ matrix = []
 # Input the matrix
 for i in range(n):
     row = []
-
     for j in range(m):
         x = int(input("Enter element: "))
         row.append(x)
