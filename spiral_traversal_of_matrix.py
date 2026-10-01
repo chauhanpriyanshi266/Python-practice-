@@ -12,7 +12,6 @@ for i in range(n):
     for j in range(m):
         x = int(input("Enter element: "))
         row.append(x)
-
     matrix.append(row)
 
 top = 0
