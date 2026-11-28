@@ -1,0 +1,20 @@
+# Program to transpose a matrix represented by a tuple
+
+import ast
+
+tup = ast.literal_eval(input("Enter matrix as a tuple:"))
+
+matrix = []
+
+# Traverse columns first
+for i in range(len(tup[0])):
+    row = []
+
+    # Traverse rows
+    for j in range(len(tup)):
+        row.append(tup[j][i])
+
+    matrix.append(tuple(row))
+
+# Display the transposed matrix
+print("Transposed matrix:", tuple(matrix))
